@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня "Арома"</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <a href="#" class="logo">Арома</a>
+        <ul class="nav-links">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Главная секция -->
+    <header class="hero" id="home">
+        <h1>Добро пожаловать в кофейню "Арома"</h1>
+        <p>Где кофе становится искусством</p>
+        <a href="#menu" class="hero-btn">Посмотреть меню</a>
+    </header>
+
+    <!-- О нас -->
+    <section id="about" class="about-section">
+        <h2>О нас</h2>
+        <p>Наша кофейня - это место, где можно насладиться настоящим вкусом кофе.</p>
+    </section>
+
+    <!-- Меню -->
+    <section id="menu" class="menu-section">
+        <h2>Меню</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Эспрессо</h3>
+                <p>Крепкий и насыщенный</p>
+                <span>150₸</span>
+            </div>
+            <div class="menu-item">
+                <h3>Капучино</h3>
+                <p>С нежной пенкой</p>
+                <span>200₸</span>
+            </div>
+            <div class="menu-item">
+                <h3>Латте</h3>
+                <p>Сливочный вкус</p>
+                <span>250₸</span>
+            </div>
+            <div class="menu-item">
+                <h3>Мокко</h3>
+                <p>С шоколадом</p>
+                <span>300₸</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="reviews-section">
+        <h2>Отзывы наших гостей</h2>
+        <div class="review">
+            <p>"Лучший кофе в городе!"</p>
+            <span>- Екатерина</span>
+        </div>
+        <div class="review">
+            <p>"Идеальное место для утра!"</p>
+            <span>- Артем</span>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact-section">
+        <h2>Контакты</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <textarea name="message" rows="4" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Кофейня "Арома". Все права защищены.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
